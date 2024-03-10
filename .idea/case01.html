@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/normalize.css">
+    <style>
+        body{
+            margin: 0;
+            overflow: hidden;
+        }
+        section>div{
+
+        }
+        section>div:first-child{
+            width: 50%;
+            height: 50%;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: auto;
+        }
+        section>div:nth-child(2){
+            width: 50%;
+            height: 50%;
+            background-color: yellow;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        section>div:nth-child(3){
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            background-color: green;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+        section>div:nth-child(4){
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: deeppink;
+        }
+        section>div:nth-child(5){
+            width: 200px;
+            aspect-ratio: 1/1;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: white;
+        }
+        section>div>div{
+            width: 150px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+        }
+        #cir{
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: red;
+        }
+        section>div>div>div{
+            width: 60px;
+            aspect-ratio: 1/1;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        section>div:nth-child(6){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            left: -50px;
+            top: -50px;
+        }
+        section>div:nth-child(7){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: calc(50% - 50px);
+            top: -50px;
+        }
+        section>div:nth-child(8){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: -50px;
+            top: -50px;
+        }
+        section>div:nth-child(9){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            left: -50px;
+            bottom: -50px;
+        }
+        section>div:nth-child(10){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: calc(50% - 50px);
+            bottom: -50px;
+        }
+        section>div:nth-child(11){
+            width: 100px;
+            aspect-ratio: 1/1;
+            background-color: white;
+            position: absolute;
+            border-radius: 100%;
+            right: -50px;
+            bottom: -50px;
+        }
+    </style>
+
+</head>
+<body>
+<section>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div>
+        <div id="cir"></div>
+    </div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+</body>
+</html>
